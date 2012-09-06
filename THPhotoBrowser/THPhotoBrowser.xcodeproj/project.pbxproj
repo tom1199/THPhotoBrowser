@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20C4BAA15F8F169009F17EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20C4BA915F8F169009F17EA /* UIKit.framework */; };
+		E20C4BAC15F8F169009F17EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20C4BAB15F8F169009F17EA /* Foundation.framework */; };
+		E20C4BAE15F8F169009F17EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20C4BAD15F8F169009F17EA /* CoreGraphics.framework */; };
+		E20C4BB415F8F169009F17EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E20C4BB215F8F169009F17EA /* InfoPlist.strings */; };
+		E20C4BB615F8F169009F17EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4BB515F8F169009F17EA /* main.m */; };
+		E20C4BBA15F8F169009F17EA /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4BB915F8F169009F17EA /* THAppDelegate.m */; };
+		E20C4BCC15F8F1DA009F17EA /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4BC515F8F1D9009F17EA /* THViewController.m */; };
+		E20C4BCD15F8F1DA009F17EA /* THImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4BC715F8F1D9009F17EA /* THImageViewController.m */; };
+		E20C4BCE15F8F1DA009F17EA /* THImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4BC915F8F1DA009F17EA /* THImageScrollView.m */; };
+		E20C4BCF15F8F1DA009F17EA /* THViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20C4BCA15F8F1DA009F17EA /* THViewController_iPhone.xib */; };
+		E20C4BD015F8F1DA009F17EA /* THViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20C4BCB15F8F1DA009F17EA /* THViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20C4BA515F8F169009F17EA /* THPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20C4BA915F8F169009F17EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E20C4BAB15F8F169009F17EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E20C4BAD15F8F169009F17EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E20C4BB115F8F169009F17EA /* THPhotoBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		E20C4BB315F8F169009F17EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E20C4BB515F8F169009F17EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E20C4BB715F8F169009F17EA /* THPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		E20C4BB815F8F169009F17EA /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		E20C4BB915F8F169009F17EA /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		E20C4BC415F8F1D9009F17EA /* THViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		E20C4BC515F8F1D9009F17EA /* THViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		E20C4BC615F8F1D9009F17EA /* THImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THImageViewController.h; sourceTree = "<group>"; };
+		E20C4BC715F8F1D9009F17EA /* THImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THImageViewController.m; sourceTree = "<group>"; };
+		E20C4BC815F8F1DA009F17EA /* THImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THImageScrollView.h; sourceTree = "<group>"; };
+		E20C4BC915F8F1DA009F17EA /* THImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THImageScrollView.m; sourceTree = "<group>"; };
+		E20C4BCA15F8F1DA009F17EA /* THViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THViewController_iPhone.xib; sourceTree = "<group>"; };
+		E20C4BCB15F8F1DA009F17EA /* THViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20C4BA215F8F169009F17EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20C4BAA15F8F169009F17EA /* UIKit.framework in Frameworks */,
+				E20C4BAC15F8F169009F17EA /* Foundation.framework in Frameworks */,
+				E20C4BAE15F8F169009F17EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20C4B9A15F8F169009F17EA = {
+			isa = PBXGroup;
+			children = (
+				E20C4BAF15F8F169009F17EA /* THPhotoBrowser */,
+				E20C4BA815F8F169009F17EA /* Frameworks */,
+				E20C4BA615F8F169009F17EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20C4BA615F8F169009F17EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4BA515F8F169009F17EA /* THPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20C4BA815F8F169009F17EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4BA915F8F169009F17EA /* UIKit.framework */,
+				E20C4BAB15F8F169009F17EA /* Foundation.framework */,
+				E20C4BAD15F8F169009F17EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20C4BAF15F8F169009F17EA /* THPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4BB815F8F169009F17EA /* THAppDelegate.h */,
+				E20C4BB915F8F169009F17EA /* THAppDelegate.m */,
+				E20C4BC415F8F1D9009F17EA /* THViewController.h */,
+				E20C4BC515F8F1D9009F17EA /* THViewController.m */,
+				E20C4BC615F8F1D9009F17EA /* THImageViewController.h */,
+				E20C4BC715F8F1D9009F17EA /* THImageViewController.m */,
+				E20C4BC815F8F1DA009F17EA /* THImageScrollView.h */,
+				E20C4BC915F8F1DA009F17EA /* THImageScrollView.m */,
+				E20C4BCA15F8F1DA009F17EA /* THViewController_iPhone.xib */,
+				E20C4BCB15F8F1DA009F17EA /* THViewController_iPad.xib */,
+				E20C4BB015F8F169009F17EA /* Supporting Files */,
+			);
+			path = THPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E20C4BB015F8F169009F17EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4BB115F8F169009F17EA /* THPhotoBrowser-Info.plist */,
+				E20C4BB215F8F169009F17EA /* InfoPlist.strings */,
+				E20C4BB515F8F169009F17EA /* main.m */,
+				E20C4BB715F8F169009F17EA /* THPhotoBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20C4BA415F8F169009F17EA /* THPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20C4BBD15F8F169009F17EA /* Build configuration list for PBXNativeTarget "THPhotoBrowser" */;
+			buildPhases = (
+				E20C4BA115F8F169009F17EA /* Sources */,
+				E20C4BA215F8F169009F17EA /* Frameworks */,
+				E20C4BA315F8F169009F17EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THPhotoBrowser;
+			productName = THPhotoBrowser;
+			productReference = E20C4BA515F8F169009F17EA /* THPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20C4B9C15F8F169009F17EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tang Han";
+			};
+			buildConfigurationList = E20C4B9F15F8F169009F17EA /* Build configuration list for PBXProject "THPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E20C4B9A15F8F169009F17EA;
+			productRefGroup = E20C4BA615F8F169009F17EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20C4BA415F8F169009F17EA /* THPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20C4BA315F8F169009F17EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20C4BB415F8F169009F17EA /* InfoPlist.strings in Resources */,
+				E20C4BCF15F8F1DA009F17EA /* THViewController_iPhone.xib in Resources */,
+				E20C4BD015F8F1DA009F17EA /* THViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20C4BA115F8F169009F17EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20C4BB615F8F169009F17EA /* main.m in Sources */,
+				E20C4BBA15F8F169009F17EA /* THAppDelegate.m in Sources */,
+				E20C4BCC15F8F1DA009F17EA /* THViewController.m in Sources */,
+				E20C4BCD15F8F1DA009F17EA /* THImageViewController.m in Sources */,
+				E20C4BCE15F8F1DA009F17EA /* THImageScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E20C4BB215F8F169009F17EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20C4BB315F8F169009F17EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20C4BBB15F8F169009F17EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E20C4BBC15F8F169009F17EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20C4BBE15F8F169009F17EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPhotoBrowser/THPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "THPhotoBrowser/THPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E20C4BBF15F8F169009F17EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPhotoBrowser/THPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "THPhotoBrowser/THPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20C4B9F15F8F169009F17EA /* Build configuration list for PBXProject "THPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20C4BBB15F8F169009F17EA /* Debug */,
+				E20C4BBC15F8F169009F17EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20C4BBD15F8F169009F17EA /* Build configuration list for PBXNativeTarget "THPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20C4BBE15F8F169009F17EA /* Debug */,
+				E20C4BBF15F8F169009F17EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20C4B9C15F8F169009F17EA /* Project object */;
+}
